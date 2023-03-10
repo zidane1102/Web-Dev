@@ -247,7 +247,8 @@ th {
     align-items: flex-end;
 }
 .database{
-    max-height: 87%
+    max-height: 87%;
+    width: 100%;
 }
 .database-button{
     display: flex;
@@ -492,7 +493,7 @@ input[type="radio"]{
 }
 .col-space{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .col-head{
     padding-left: 24px;
@@ -501,8 +502,7 @@ input[type="radio"]{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    padding: 6px 6px 6px 36px;
-    width: 94.5%;
+    padding: 6px 6px 6px 25px;
 }
 .dialog-form__head{
     font-size: small;
